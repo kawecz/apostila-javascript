@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Convertor de Metros</title>
+    <script defer src="script.js"></script>
+    <style>
+        main {
+            display: flex;
+            flex-direction: column;
+            max-width: 350px;
+            text-align: center;
+            align-items: center;
+            margin: auto;
+            gap: 0.5em;
+        }
+
+        input[type = "number"] {
+            padding: 1em;
+            border-radius: 2em;
+            width: 250px;
+        }
+        input[type = "submit"] {
+            padding: 1em;
+            cursor: pointer;
+            border: none;
+            background: black;
+            color: white;
+            border-radius: 2em;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Convertor de Metros</h1>
+        <input type="number" name="metros" id="metros" placeholder="Digite uma distância em metros:" >
+        <input type="submit" value="Calcular" onclick="calcular()">
+        <div class="res">
+
+        </div>
+    </main>
+</body>
+</html>
