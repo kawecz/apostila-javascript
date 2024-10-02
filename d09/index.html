@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Convertor de Reais para Dólares</title>
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+    <main>
+        <h1>Convertor de Reais (R$) para Dólares</h1>
+        <form onsubmit="processarFormularioEvent(event)">
+            <input type="number" name="reais" id="reais" placeholder="Digite o valor em Reais (R$):"  required pattern="\d+([,]\d{1,2})?">
+            <input type="number" name="dolar" id="dolar" placeholder="Digite a cotação do Dólar atual (U$):" required pattern="\d+([,]\d{1,2})?">
+
+            <input type="submit" value="Calcular">
+
+           
+        </form>
+        <div class="res">
+
+        </div>
+
+        <div class="img">
+            <img src="img/one-hundred-dollar-bill-free-png.webp" alt="">
+        </div>
+    </main>
+    <script defer src="script.js"></script>
+</body>
+</html>
