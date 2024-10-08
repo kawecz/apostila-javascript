@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body,html {
+    background: rgb(26, 26, 26);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:  5em auto;
+    background: rgba(19, 19, 19, 0.507);
+    padding: 2em;
+    max-width: 650px;
+}
+
+main h1 {
+    color: white;
+    text-align: center;
+}
+main h4 {
+    color: white;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+input[type = "number"] {
+    padding: 1em;
+    margin-top: 1em;
+    border: transparent;
+    border-radius: 3em;
+    cursor: pointer;
+    font-weight: 600;
+    transition: ease-in-out 0.7s;
+}
+input[type = "submit"] {
+    padding: 1em;
+    margin-top: 1em;
+    border: none;
+    border-radius: 3em;
+    background: greenyellow;
+    cursor: pointer;
+    font-weight: 600;
+    transition: ease-in-out 0.7s;
+}
+input:hover[type = "submit"] {
+    background: green;
+}
