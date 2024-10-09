@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Delta</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <main>
+        <h1>Calculadora de Delta</h1>
+        <form  onsubmit="calcular()">
+            <div class="a">
+                <label for="a">Valor de A:</label>
+                <input type="number" name="a" id="a" required>
+            </div>
+            <div class="b">
+                <label for="b">Valor de B:</label>
+                <input type="number" name="b" id="b" required>
+            </div>
+            <div class="c">
+                <label for="c">Valor de C:</label>
+                <input type="number" name="c" id="c" required>
+            </div>
+            <input type="submit" value="Calcular">
+        </form>
+
+        <span class="resultado">
+
+        </span>
+    </main>
+</body>
+</html>
