@@ -12,3 +12,4 @@ resoluções de diversas atividades.
 <h3><a href = "https://kawecz.github.io/apostila-javascript/d09/index.html">Desafio 9 - Convertor de Real para Dólar</h3>
 <h3><a href = "https://kawecz.github.io/apostila-javascript/d10/index.html">Desafio 10 - Largura e Altura de uma parede</h3>
 <h3><a href = "https://kawecz.github.io/apostila-javascript/d11/index.html">Desafio 11 - Calculadora de Delta</h3>
+<h3><a href = "https://kawecz.github.io/apostila-javascript/d12/index.html">Desafio 11 - Calculadora de Desconto(5%)</h3>
