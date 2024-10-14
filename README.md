@@ -13,3 +13,4 @@ resoluções de diversas atividades.
 <h3><a href = "https://kawecz.github.io/apostila-javascript/d10/index.html">Desafio 10 - Largura e Altura de uma parede</h3>
 <h3><a href = "https://kawecz.github.io/apostila-javascript/d11/index.html">Desafio 11 - Calculadora de Delta</h3>
 <h3><a href = "https://kawecz.github.io/apostila-javascript/d12/index.html">Desafio 12 - Calculadora de Desconto(5%)</h3>
+<h3><a href = "https://kawecz.github.io/apostila-javascript/d13/index.html">Desafio 13 - Calcular Aumento Salarial(15%)</h3>
