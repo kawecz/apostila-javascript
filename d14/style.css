@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body,html {
+    background: rgb(15, 15, 15);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2em;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4em;
+}
+
+form label {
+    font-weight: 400;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    align-items: center;
+}
+
+form input {
+    appearance: textField;
+    background: transparent;
+    font-size: 13pt;
+    border-radius: 2em;
+    border: none;
+    padding: 1em;
+}
+form input {
+    appearance: textField;
+    background: transparent;
+    font-size: 13pt;
+    border-radius: 2em;
+    border: none;
+    padding: 1em;
+    transition: color, background, 0.9s;
+}
+form input:hover {
+    color: white;
+}
+
+form input:focus {
+    outline: none;
+}
+
+.km, .dias {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    border: 1px solid black;
+    background: white;
+    border-radius: 2em;
+    transition: color, background, 0.9s;
+    margin-bottom: 1em;
+}
+
+.dias:hover,.km:hover {
+    background: green;
+    color: white;
+}
+
+input[type = "submit"] {
+    border:transparent;
+    transition:  background, color, 0.9s;
+    cursor: pointer;
+    background: white;
+}
+input[type = "submit"]:hover {
+    background: green;
+}
+
+.res {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    clip-path: circle(100px at -100% -20%);
+    transition: all 1s;
+    height: 20vh;
+}
+
+.is-active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    clip-path: circle(1500px at 100% -20%);
+    transition: all 1s;
+}
+
+.botao {
+    display: block;         /* Faz o botão ser um bloco */
+    margin: 20px auto;     /* Centraliza horizontalmente com margens automáticas */
+    padding: 10px 20px;    /* Espaçamento interno do botão */
+    font-size: 16px;        /* Tamanho da fonte do botão */
+    cursor: pointer;  /* Muda o cursor ao passar sobre o botão */
+    border: transparent;  
+    border-radius: 2em;
+    padding: 1em;
+}
+.botao:hover{
+    transition: all 1s;
+   background: green;      /* Muda o cursor ao passar sobre o botão */
+    color: white;
+}
+
+.botoes {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+
+
+

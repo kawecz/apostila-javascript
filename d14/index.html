@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Locadora de Carros</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <section class="section">
+        <h1>Locadora de Carros</h1>
+        <form onsubmit="calcular(event)" id="form">
+            <div class="km">
+                <label for="km">(km):</label>
+                <input type="number" name="km" id="km" required placeholder="Quantidade de Kilômetros rodados">
+            </div>
+            <div class="dias">
+                <label for="dias">Dias:</label>
+                <input type="number" name="dias" id="dias" required placeholder="Quantidade de Dias Alugado">
+            </div>
+            <div class="botoes">
+                <input type="submit" value="Calcular" id="botao">
+                <button id="resetButton" class="botao">
+                    Limpar
+                </button>
+            </div>
+        </form>
+        <div class="res" id="hidden">
+            
+        </div>
+    </section>
+   
+</body>
+</html>
