@@ -37,7 +37,6 @@ form input {
     font-size: 13pt;
     border-radius: 2em;
     border: none;
-    padding: 1em;
 }
 form input {
     appearance: textField;
@@ -45,7 +44,6 @@ form input {
     font-size: 13pt;
     border-radius: 2em;
     border: none;
-    padding: 1em;
     transition: color, background, 0.9s;
 }
 form input:hover {
