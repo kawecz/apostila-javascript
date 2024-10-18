@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio - leia o número de dias trabalhados em um mês e mostre o
+        salário de um funcionário</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <section class="section">
+        <h1>Salário Baseado na Quantidade de Dias Trabalhados</h1>
+        <p>Considerando que você trabalha <strong>8 horas por dia</strong> e recebe<strong> R$25 por hora trabalhada.</strong></p>
+        <form onsubmit="calcular(event)">
+            <div>
+                <label for="dias">Dias:</label>
+                <input type="number" name="dias" id="dias" required placeholder="Quantidades de Dias Trabalhados">
+            </div>
+            <input type="submit" value="calcular">
+        </form>
+    </section>
+    <section class="res">
+        esperando...
+    </section>
+</body>
+</html>
