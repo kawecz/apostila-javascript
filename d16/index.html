@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 16 - Calcular redução no tempo de vida de um Fumante.</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <section>
+        <h1>Derby Calculator</h1>
+        <form onsubmit="calcular(event)" id="ativo">
+            <div>
+                <label for="qcigarros">Quantidade de Cigarros por Dia:</label>
+                <input type="number" name="qcigarros" id="qcigarros" required>
+            </div>
+            <div>
+                <label for="anosf">Quantidade de Anos que já fumou:</label>
+                <input type="number" name="anosf" id="anosf" required>
+            </div>
+            <input type="submit" value="Calcular">
+        </form>
+    </section>
+    <section class="resposta" id="hidden">
+
+    </section>
+</body>
+</html>
