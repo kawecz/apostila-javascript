@@ -15,3 +15,7 @@ resoluções de diversas atividades.
 <h3><a href = "https://kawecz.github.io/apostila-javascript/d12/index.html">Desafio 12 - Calculadora de Desconto(5%)</h3>
 <h3><a href = "https://kawecz.github.io/apostila-javascript/d13/index.html">Desafio 13 - Calcular Aumento Salarial(15%)</h3>
 <h3><a href = "https://kawecz.github.io/apostila-javascript/d14/index.html">Desafio 14 - Locadora de Carros</h3>
+<h3><a href = "https://kawecz.github.io/apostila-javascript/d15/index.html">Desafio 15 - leia o número de dias trabalhados em um mês e mostre o
+        salário de um funcionário</h3>
+<h3><a href = "https://kawecz.github.io/apostila-javascript/d16/index.html">Desafio 16 - Calcular redução no tempo de vida de um Fumante.</h3>
+<h3><a href = "https://kawecz.github.io/apostila-javascript/d17/index.html">Desafio 17 - Velocidade de um Carro.</h3>
