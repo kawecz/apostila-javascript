@@ -19,3 +19,4 @@ resoluções de diversas atividades.
         salário de um funcionário</h3>
 <h3><a href = "https://kawecz.github.io/apostila-javascript/d16/index.html">Desafio 16 - Calcular redução no tempo de vida de um Fumante.</h3>
 <h3><a href = "https://kawecz.github.io/apostila-javascript/d17/index.html">Desafio 17 - Velocidade de um Carro.</h3>
+<h3><a href = "https://kawecz.github.io/apostila-javascript/d18/index.html">Desafio 18 - Ano de Nascimento.</h3>
