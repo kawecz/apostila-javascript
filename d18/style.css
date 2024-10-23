@@ -45,6 +45,8 @@ form input:focus {
 }
 
 .nascimento {
+    display: flex;
+    align-items: center;
     border: 2px solid black;
     border-radius: 2em;
     padding: 2em;
