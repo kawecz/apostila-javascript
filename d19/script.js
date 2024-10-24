@@ -14,7 +14,7 @@ function calcular(event){
     resp.innerHTML += `<p>Segunda Nota: <strong>${n2}</strong></p>`
     resp.innerHTML += `<p>Média do Aluno: <strong>${media.toFixed(2)}</strong></p>`
     
-    if(media < 5) {
+    if(media < 7) {
         resp.style.color = "red"
         resp.innerHTML += `<p><strong>Aluno de Recuperação</strong></p>`   
     } else {
