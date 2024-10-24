@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 19 - Média de um Aluno</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Desafio 19</h1>
+        <p>Crie um algoritmo que leia o nome e as duas notas de um aluno, calcule a sua
+            média e mostre na tela. No final, analise a média e mostre se o aluno teve ou
+            não um bom aproveitamento (se ficou acima da média 7.0).</p>
+    </header>
+    <section class="section">
+        <form onsubmit="calcular(event)">
+            <div class="nome">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" required placeholder="nome do aluno"  pattern="[A-Za-zÀ-ÿ\s]+">
+            </div>
+            <div class="n1">
+                <label for="n1">(n1):</label>
+                <input type="number" name="n1" id="n1" required placeholder="Primeira Nota" step="0.01">
+            </div>
+            <div class="n2">
+                <label for="n2">(n2):</label>
+                <input type="number" name="n2" id="n2" required placeholder="Segunda Nota" step="0.01">
+            </div>
+            <input type="submit" value="Enviar">   
+        </form>
+    </section>
+    <seciton class="res">
+        <p>Esperando...</p>
+    </seciton>
+
+</body>
+</html>
