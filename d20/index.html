@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 20 - Par ou Ímpar</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer  src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Desafio 20</h1>
+        <p>Desenvolva um programa que leia um número inteiro e mostre se ele é PAR ou
+            ÍMPAR.</p>
+    </header>
+    <section>
+        <form onsubmit="calcular(event)">
+            <div class="number">
+                <label for="numero">N:</label>
+                <input type="number" name="numero" id="numero" required placeholder="Digite um número" min="0">
+            </div>
+            <input type="submit" value="Enviar">
+        </form>
+        <section class="res">
+            Aguardando...
+        </section>
+    </section>
+</body>
+</html>
