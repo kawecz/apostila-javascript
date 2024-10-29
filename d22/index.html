@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 22 - Alistamento</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Desafio 22</h1>
+        <p>Escreva um programa que leia o ano de nascimento de um rapaz e mostre a sua
+            situação em relação ao alistamento militar.
+            - Se estiver antes dos 18 anos, mostre em quantos anos faltam para o
+            alistamento.
+            - Se já tiver depois dos 18 anos, mostre quantos anos já se passaram do
+            alistamento.</p>
+    </header>
+    <section class="section">
+        <form onsubmit="calcular(event)">
+            <div class="ano">
+                <label for="ano">Ano:</label>
+                <input type="number" name="ano" id="ano" required placeholder="Digite o Ano" min="1890">
+            </div>
+            <input type="submit" value="Calcular">
+        </form>
+    </section>
+    <section class="res">
+        <p>Aguardando...</p>
+    </section>
+</body>
+</html>
