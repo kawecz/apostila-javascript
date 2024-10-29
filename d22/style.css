@@ -31,7 +31,6 @@ form input[type = "number"] {
     border: none;
     background: transparent;
     appearance: textField;
-    font-size: 13pt;
 }
 form input:focus {
     outline: none;
