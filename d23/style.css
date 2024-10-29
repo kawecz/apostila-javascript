@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+    transition: 1.1s;
+}
+
+body,html {
+    background: rgb(0, 0, 0);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    text-align: justify;
+    text-indent: 2em;
+    background: rgb(8, 8, 8);
+    color: white;
+}
+
+header p {
+    padding: 1em;
+    max-width: 500px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    padding: 2em;
+    border-radius: 3em;
+    max-width: 490px;
+    margin: auto;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-top: 2em;
+    padding: 2em;
+    font-size:13pt;
+    border: 1px solid black;
+    border-radius: 3em;
+}
+
+.nome {
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: 2em;
+}
+
+input[type = "text"] {
+    border: none;
+    appearance: textField;
+    padding: 1em;
+    font-size: 14pt;
+}
+input[type = "number"] {
+    border: none;
+    appearance: textField;
+    padding: 1em;
+    font-size: 14pt;
+}
+input[type = "number"]:focus {
+    outline: none;
+}
+input[type = "text"]:focus {
+    outline: none;
+}
+
+
+.produto {
+    border: 1px solid black;
+    padding: 1em;
+    border-radius: 3em;
+    font-size: 16pt;
+    margin-top: 2em;
+}
+
+input[type = "submit"] {
+    padding: 2em;
+    margin-top: 1em;
+    border: none;
+    background: green;
+    border-radius: 3em;
+    color: white;
+    font-weight: 600;
+}
+
+.res {
+    padding: 2em;
+    font-size: 14pt;
+}
+
+@media (max-width:750px) {
+    .checkbox {
+        display: flex;
+        align-items: center;
+        gap: 1em;
+        margin-top: 2em;
+        padding: 2em;
+        font-size:11pt;
+        border: 1px solid black;
+        border-radius: 3em;
+    }
+    
+    input[type = "text"] {
+        font-size: 12pt;
+    }
+}
+
+
+
+

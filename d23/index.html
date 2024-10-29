@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 23 </title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Desafio 23</h1>
+        <p>Numa promoção exclusiva para o Dia da Mulher, uma loja quer dar descontos
+            para todos, mas especialmente para mulheres. Faça um programa que leia nome,
+            sexo e o valor das compras do cliente e calcule o preço com desconto. Sabendo
+            que:
+            - Homens ganham 5% de desconto
+            - Mulheres ganham 13% de desconto</p>
+    </header>
+    <main>
+        <section>
+            <form onsubmit="desconto(event)">
+                <div class="nome">
+                    <h3>Nome:</h3>
+                    <label for="nome">
+                        <input type="text" name="nome" id="nome" required>
+                    </label>
+                </div>
+                <div class="checkbox">
+                    <h3>Sexo:</h3>
+                    <label for="sex">Masculino:</label>
+                    <input type="radio" name="sex" id="sex" required minlength="2">
+                    <label for="sex">Feminino:</label>
+                    <input type="radio" name="sex" id="sex" required>
+                </div>
+                <div class="produto">
+                    <label for="produto"><strong>R$</strong>:</label>
+                    <input type="number" name="produto" id="produto" required placeholder="Digite o valor do produto:" >
+                </div>
+                <input type="submit" value="Calcular">
+               <section class="res">
+                   a
+               </section>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
