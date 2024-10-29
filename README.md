@@ -22,3 +22,4 @@ resoluções de diversas atividades.
 <h3><a href = "https://kawecz.github.io/apostila-javascript/d19/index.html">Desafio 19 - Média de um Aluno.</h3>
 <h3><a href = "https://kawecz.github.io/apostila-javascript/d20/index.html">Desafio 20 - Par ou Ímpar.</h3>
 <h3><a href = "https://kawecz.github.io/apostila-javascript/d21/index.html">Desafio 21 - Ano Bissexto.</h3>
+<h3><a href = "https://kawecz.github.io/apostila-javascript/d21/index.html">Desafio 22 - Alistamento.</h3>
