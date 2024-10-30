@@ -101,11 +101,13 @@ input[type = "submit"] {
     border-radius: 3em;
     color: white;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .res {
     padding: 2em;
-    font-size: 14pt;
+    font-size: 15pt;
+    text-align: center;
 }
 
 @media (max-width:750px) {
