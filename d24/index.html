@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 24 - Passageiro </title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Desafio 24</h1>
+        <p> Faça um algoritmo que pergunte a distância que um passageiro deseja
+            percorrer em Km. Calcule o preço da passagem, cobrando R$0.50 por Km para
+            viagens até 200Km e R$0.45 para viagens mais longas.</p>
+    </header>
+    <section>
+        <form onsubmit="calc(event)">
+            <div class="km">
+                <label for="km"><strong>(km)</strong>:
+                    <input type="number" name="km" id="km" required placeholder="Quantidade km">
+                </label>
+            </div>
+            <input type="submit" value="Calcular">
+        </form>
+        <div class="res">
+            Aguardando...
+        </div>
+    </section>
+</body>
+</html>
