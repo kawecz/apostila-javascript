@@ -11,7 +11,7 @@ function calc(event) {
     } else {
         const valor = km * 0.45
         res.innerHTML = `<p>Você pretende percorrer ${km}km</p>`
-        res.innerHTML += `<p>Você pagará <strong>R$0.50</strong> por por Km</>`
+        res.innerHTML += `<p>Você pagará <strong>R$0.45</strong> por por Km</>`
         res.innerHTML += `<p>Ao total você terá que pagar R$${valor.toFixed(2)}`
     }
 }
