@@ -25,3 +25,4 @@ resoluções de diversas atividades.
 <h3><a href = "https://kawecz.github.io/apostila-javascript/d22/index.html">Desafio 22 - Alistamento.</h3>
 <h3><a href = "https://kawecz.github.io/apostila-javascript/d23/index.html">Desafio 23 - Dia da Mulher.</h3>
 <h3><a href = "https://kawecz.github.io/apostila-javascript/d24/index.html">Desafio 24 - Passageiro.</h3>
+<h3><a href = "https://kawecz.github.io/apostila-javascript/d25/index.html">Desafio 25 - Triângulo.</h3>

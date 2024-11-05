@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 25 - Triângulo</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Desafio 25</h1>
+        <p> Crie um programa que leia o tamanho de três segmentos de reta.
+            Analise seus comprimentos e diga se é possível formar um triângulo com essas
+            retas. Matematicamente, para três segmentos formarem um triângulo, o comprimento
+            de cada lado deve ser menor que a soma dos outros dois.</p>
+    </header>
+    <section>
+        <form onsubmit="calc(event)">
+            <div class="segmento">
+                <label for="seg1">V1:
+                    <input type="number" name="seg1" id="seg1" required min="1">
+                </label>
+            </div>
+            <div class="segmento">
+                <label for="seg2">V2:
+                    <input type="number" name="seg2" id="seg2" required min="1">
+                </label>
+            </div>
+            <div class="segmento">
+                <label for="seg1">V3:
+                    <input type="number" name="seg1" id="seg3" required min="1">
+                </label>
+            </div>
+            <input type="submit" value="Calcular">
+        </form>
+    </section>
+    <section class="res">
+        Aguardando...
+    </section>
+</body>
+</html>
