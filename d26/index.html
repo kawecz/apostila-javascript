@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 26 - Comparando Números Inteiros.</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Desafio 26</h1>
+        <p>
+            Escreva um algoritmo que leia dois números inteiros e compare-os, mostrando
+            na tela uma das mensagens abaixo:
+            <ul>
+                <li> O primeiro valor é o maior</li>
+                <li> O segundo valor é o maior</li>
+                <li> Não existe valor maior, os dois são iguais</li>
+            </ul>
+        </p>
+    </header>
+    <section>
+        <form onsubmit="calc(event)">
+            <div class="n1">
+                <label for="n1">(n1):
+                    <input type="number" name="n1" id="n1" required placeholder="Primeiro Número:" min="1">
+                </label>
+            </div>
+            <div class="n2">
+                <label for="n2">(n2):
+                    <input type="number" name="n2" id="n2" required placeholder="Segundo Número:" min="1">
+                </label>
+            </div>
+            <input type="submit" value="Verificar">
+        </form>
+    </section>
+    <section class="res">
+        <p>Aguardando...</p>
+    </section>
+</body>
+</html>
