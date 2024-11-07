@@ -26,4 +26,5 @@ resoluções de diversas atividades.
 <h3><a href = "https://kawecz.github.io/apostila-javascript/d23/index.html">Desafio 23 - Dia da Mulher.</h3>
 <h3><a href = "https://kawecz.github.io/apostila-javascript/d24/index.html">Desafio 24 - Passageiro.</h3>
 <h3><a href = "https://kawecz.github.io/apostila-javascript/d25/index.html">Desafio 25 - Triângulo.</h3>
-<h3><a href = "https://kawecz.github.io/apostila-javascript/d26/index.html">Desafio 25 - Comparação de 2 números inteiros.</h3>
+<h3><a href = "https://kawecz.github.io/apostila-javascript/d26/index.html">Desafio 26 - Comparação de 2 números inteiros.</h3>
+<h3><a href = "https://kawecz.github.io/apostila-javascript/d27/index.html">Desafio 27 - Média de um aluno. </h3>
