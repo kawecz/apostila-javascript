@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 27 - Média de um aluno</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Desafio 27</h1>
+        <p> Crie um programa que leia duas notas de um aluno e calcule a sua média,
+            mostrando uma mensagem no final, de acordo com a média atingida:
+            <ul>
+                <li> Média até 4.9: <span style="color: red;">REPROVADO</span></li>
+                <li> Média entre 5.0 e 6.9: <span style="color: yellow;">RECUPERAÇÃO</span></li>
+                <li> Média 7.0 ou superior: <span style="color: green;">APROVADO</span></li>
+            </ul></p>
+    </header>
+    <section class="res">
+        <p>Aguardando...</p>
+    </section>
+    <section>
+        <form onsubmit="media(event)" id="form">
+            <div class="nota">
+                <label for="n1">(N1)
+                    <input type="number" name="n1" id="n1" required placeholder="Primeira Nota"  step="0.01" lang="en" max="10">
+                </label>
+            </div>
+            <div class="nota">
+                <label for="n2">(N2)
+                    <input type="number" name="n2" id="n2" required placeholder="Segunda Nota" max="10" step="0.01" lang="en">
+                </label>
+            </div>
+            <input type="submit" value="Calcular">
+        </form>
+    </section>
+   
+</body>
+</html>
