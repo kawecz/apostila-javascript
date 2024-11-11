@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 29 - Funcionário</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Desafio 29</h1>
+        <p>
+            Desenvolva um programa que leia o nome de um funcionário, seu salário,
+            quantos anos ele trabalha na empresa e mostre seu novo salário, reajustado de
+            acordo com a tabela a seguir:
+            <ul>
+                <li> Até 3 anos de empresa: aumento de 3%</li>
+                <li> entre 3 e 10 anos: aumento de 12.5%</li>
+                <li> 10 anos ou mais: aumento de 20%</li>
+            </ul>
+        </p>
+    </header>
+    <section>
+        <form onsubmit="calc(event)">
+            <div class="nome">
+                <label for="nome">Nome:
+                    <input type="text" required placeholder="Nome" id="nome">
+                </label>
+            </div>
+            <div class="sal">
+                <label for="sal">Salário:
+                    <input type="number" name="sal" id="sal" required min="1" placeholder="Salário">
+                </label>
+            </div>
+            <div class="anos">
+                <label for="anos">Anos:
+                    <input type="number" name="anos" id="anos" required placeholder="Anos de empresa">
+                </label>
+            </div>
+            <input type="submit" value="Calcular">
+            <div class="res">
+                <p>Aguardando...</p>
+            </div>
+        </form>
+    </section>
+</body>
+</html>

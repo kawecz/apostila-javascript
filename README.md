@@ -29,3 +29,4 @@ resoluções de diversas atividades.
 <h3><a href = "https://kawecz.github.io/apostila-javascript/d26/index.html">Desafio 26 - Comparação de 2 números inteiros.</h3>
 <h3><a href = "https://kawecz.github.io/apostila-javascript/d27/index.html">Desafio 27 - Média de um aluno. </h3>
 <h3><a href = "https://kawecz.github.io/apostila-javascript/d28/index.html">Desafio 28 - Terreno. </h3>
+<h3><a href = "https://kawecz.github.io/apostila-javascript/d29/index.html">Desafio 29 - Funcionário. </h3>
