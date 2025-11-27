@@ -1,6 +1,7 @@
 # apostila-javascript
+
 resoluções de diversas atividades.
- 
+
 <h3><a href="https://kawecz.github.io/apostila-javascript/d01/index.html">Desafio 1 - Olá, Mundo! </a></h3>
 <h3><a href="https://kawecz.github.io/apostila-javascript/d02/index.html">Desafio 2 - Desafio Boas Vindas </a></h3>
 <h3><a href="https://kawecz.github.io/apostila-javascript/d03/index.html">Desafio 3 - Desafio Nome e Salário </a></h3>
@@ -31,3 +32,5 @@ resoluções de diversas atividades.
 <h3><a href = "https://kawecz.github.io/apostila-javascript/d28/index.html">Desafio 28 - Terreno. </h3>
 <h3><a href = "https://kawecz.github.io/apostila-javascript/d29/index.html">Desafio 29 - Funcionário. </h3>
 <h3><a href = "https://kawecz.github.io/apostila-javascript/d30/index.html">Desafio 30 - Triângulo 2.0 </h3>
+<h3><a href = "https://kawecz.github.io/apostila-javascript/d31/index.html">Desafio 31 - Crie um jogo de JoKenPo (Pedra-Papel-Tesoura) </h3>
+<h3><a href = "https://kawecz.github.io/apostila-javascript/d32/index.html">Desafio 32 - Descobrir qual foi o valor sorteado </h3>
