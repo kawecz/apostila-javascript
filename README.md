@@ -34,3 +34,5 @@ resoluções de diversas atividades.
 <h3><a href = "https://kawecz.github.io/apostila-javascript/d30/index.html">Desafio 30 - Triângulo 2.0 </h3>
 <h3><a href = "https://kawecz.github.io/apostila-javascript/d31/index.html">Desafio 31 - Crie um jogo de JoKenPo (Pedra-Papel-Tesoura) </h3>
 <h3><a href = "https://kawecz.github.io/apostila-javascript/d32/index.html">Desafio 32 - Descobrir qual foi o valor sorteado </h3>
+<h3><a href = "https://kawecz.github.io/apostila-javascript/d32/index.html">Desafio 33 - Aprovar Emprestido</h3>
+<h3><a href = "https://kawecz.github.io/apostila-javascript/d32/index.html">Desafio 34 - IMC </h3>
