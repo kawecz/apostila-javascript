@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio 35</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaquery.css">
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Desafio 35</h1>
+      <p>
+        <strong>Desafio 35</strong> - Uma empresa de aluguel de carros precisa
+        cobrar pelos seus serviços. O aluguel de um carro custa R$90 por dia
+        para carro popular e R$150 por dia para carro de luxo. Além disso, o
+        cliente paga por Km percorrido. Faça um programa que leia o tipo de
+        carro alugado (popular ou luxo), quantos dias de aluguel e quantos Km
+        foram percorridos. No final mostre o preço a ser pago de acordo com a
+        tabela a seguir
+      </p>
+      <ul type="square">
+        <li>Carros populares (aluguel de R$90 por dia)</li>
+        <li>Até 100Km percorridos: R$0,20 por Km</li>
+        <li>Acima de 100Km percorridos: R$0,10 por Km</li>
+        <li>Carros de luxo (aluguel de R$150 por dia)</li>
+        <li>Até 200Km percorridos: R$0,30 por Km</li>
+        <li>Acima de 200Km percorridos: R$0,25 por Km</li>
+      </ul>
+    </header>
+    <main>
+      <div class="carros"></div>
+      <form>
+        <div class="dias">
+            Dias:
+          <input type="number" name="dias_alugado" id="dias_alugado" required />
+        </div>
+        <div class="km">
+            KM:
+          <input type="number" name="km_percorrido" id="km_percorrido" required />
+        </div>
+        <input type="submit" value="Calcular">
+        <input type="reset" value="Resetar">
+      </form>
+      <div class="res">
+        
+      </div>
+    </main>
+  </body>
+</html>

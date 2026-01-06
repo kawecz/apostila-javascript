@@ -36,3 +36,4 @@ resoluções de diversas atividades.
 <h3><a href = "https://kawecz.github.io/apostila-javascript/d32/index.html">Desafio 32 - Descobrir qual foi o valor sorteado </h3>
 <h3><a href = "https://kawecz.github.io/apostila-javascript/d33/index.html">Desafio 33 - Aprovar Emprestido</h3>
 <h3><a href = "https://kawecz.github.io/apostila-javascript/d34/index.html">Desafio 34 - IMC </h3>
+<h3><a href = "https://kawecz.github.io/apostila-javascript/d35/index.html">Desafio 35 - Aluguel de um Carro </h3>
